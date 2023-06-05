@@ -1,0 +1,17 @@
+const averageDolphins = (96 + 108 + 89) / 3;
+const averageKoalas = (88 + 91 + 110) / 3;
+console.log(averageDolphins, averageKoalas);
+
+if (averageDolphins > averageKoalas && averageDolphins >= 100) {
+  console.log("The Dolphins win - " + averageDolphins + " points");
+} else if (averageKoalas > averageDolphins && averageKoalas >= 100) {
+  console.log("The Koalas win - " + averageKoalas + " points");
+} else if (
+  averageKoalas === averageDolphins &&
+  averageKoalas >= 100 &&
+  averageDolphins >= 100
+) {
+  console.log("It's a tie");
+} else {
+  console.log("Nobody wins");
+}
