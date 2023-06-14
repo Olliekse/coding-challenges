@@ -1,6 +1,6 @@
 // assigns to a variable an object containing Mark's data
 const mark = {
-  fullName: "Mark Miller",
+  fullName: 'Mark Miller',
   weight: 78,
   height: 1.69,
   calcBMI: function () {
@@ -11,7 +11,7 @@ const mark = {
 
 // assigns to a variable an object containing John's data
 const john = {
-  fullName: "John Smith",
+  fullName: 'John Smith',
   weight: 92,
   height: 1.95,
   calcBMI: function () {

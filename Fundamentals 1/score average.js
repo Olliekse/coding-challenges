@@ -7,9 +7,9 @@ console.log(averageDolphins, averageKoalas);
 
 // an 'if'/'else' statement that logs different results to the console depending on the fulfilled criteria
 if (averageDolphins > averageKoalas && averageDolphins >= 100) {
-  console.log("The Dolphins win - " + averageDolphins + " points");
+  console.log('The Dolphins win - ' + averageDolphins + ' points');
 } else if (averageKoalas > averageDolphins && averageKoalas >= 100) {
-  console.log("The Koalas win - " + averageKoalas + " points");
+  console.log('The Koalas win - ' + averageKoalas + ' points');
 } else if (
   averageKoalas === averageDolphins &&
   averageKoalas >= 100 &&
@@ -17,5 +17,5 @@ if (averageDolphins > averageKoalas && averageDolphins >= 100) {
 ) {
   console.log("It's a tie");
 } else {
-  console.log("Nobody wins");
+  console.log('Nobody wins');
 }
