@@ -20,7 +20,9 @@ let poll = {
   //creates a method that shows a prompt window
   registerNewAnswer() {
     const answer = Number(
-      prompt(`${this.answer}\n${this.options.join('\n')}\n(Write option number)
+      prompt(`${this.question}\n${this.options.join(
+        '\n'
+      )}\n(Write option number)
   `)
     );
 
