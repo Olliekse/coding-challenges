@@ -1,3 +1,5 @@
+'use strict';
+
 // assigns to a variable a bill amount
 let bill = 60;
 

@@ -1,3 +1,5 @@
+'use strict';
+
 // assigns to a variable an array of bills
 const bills = [22, 295, 176, 440, 37, 105, 10, 1100, 86, 52];
 

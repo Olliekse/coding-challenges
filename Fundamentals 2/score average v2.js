@@ -1,3 +1,5 @@
+'use strict';
+
 // assigns to a variable a function that calculates an average of three numbers
 const calcAverage = (a, b, c) => (a + b + c) / 3;
 

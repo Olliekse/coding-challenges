@@ -1,3 +1,5 @@
+'use strict';
+
 // creates an array of bills
 const bills = [125, 555, 44];
 

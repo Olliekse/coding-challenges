@@ -1,3 +1,5 @@
+'use strict';
+
 // assigns to variables an average taken from adding scores and dividing by three
 const averageDolphins = (96 + 108 + 89) / 3;
 const averageKoalas = (88 + 91 + 110) / 3;

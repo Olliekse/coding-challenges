@@ -1,3 +1,5 @@
+'use strict';
+
 // assigns to a variable an object containing Mark's data
 const mark = {
   fullName: 'Mark Miller',

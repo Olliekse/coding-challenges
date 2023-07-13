@@ -1,3 +1,5 @@
+'use strict';
+
 // assigns the height (metres) and weight (kg) of Mark and John to different variables
 const heightMark = 1.69;
 const heightJohn = 1.95;
